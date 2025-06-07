@@ -98,7 +98,6 @@
 }
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
-  padding: 68px 0 140px;
   padding-top: 68px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,8 +125,8 @@
 
 .staff__cards {
   max-width: 760px;
-  margin-bottom: 40px;
   margin: 68px auto;
+  margin-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -167,6 +166,8 @@
 
 .card__footer {
   margin-top: auto;
+  margin-left: 40px;
+  margin-right: 40px;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
